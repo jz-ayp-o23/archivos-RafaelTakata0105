@@ -1,6 +1,6 @@
 file = open("beatles.txt", "r", encoding = "utf8")
-for linea in file:
-    for caracter in linea:
+for line in file:
+    for caracter in line:
         print(repr(caracter), end =" ")
     print()
 file.close()
