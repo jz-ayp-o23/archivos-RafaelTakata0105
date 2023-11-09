@@ -1,2 +1,2 @@
 from encriptar import *
-encriptar_archivo("data/Asimov, Isaac - Cómo ocurrió.txt", 2)
+encriptar_archivo("data/Asimov, Isaac - Cómo ocurrió-CRIPTO.txt", -2)
