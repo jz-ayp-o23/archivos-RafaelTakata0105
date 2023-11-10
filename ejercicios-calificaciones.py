@@ -8,7 +8,7 @@ def formato_promedio(archivo, salida):
                 nombre_completo = f"{apellido}, {nombre}"
                 calificaciones = [float(calificacion) for calificacion in palabras[2:]]
                 promedio = sum(calificaciones) / len(calificaciones)
-                promedio = round(promedio, 2)
+                promedio = round(promedio, 1)
                 formato_final = f"{nombre_completo}: {promedio} \n"
                 file_out.write(formato_final)
 
